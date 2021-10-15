@@ -1,20 +1,45 @@
 <html>
   <head>
-    <title> Imersão Dev Alura - Aula 01</title>
+    <title>My Calculator :: From ImersaoAlura - Chapter 01</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="container">
       <h1 class="page-title">
-      Calculadora de média</h1>
+        My Calculator
+      </h1>
       <p class="page-subtitle">
-      Descubra qual a sua média de nota de todas as provas!
+        Let's discover an avarage of your tests...
       </p>
-      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
     </div>
     <a href="https://alura.com.br/" target="_blank">
-    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
     </a>
+
+    <div class="calculator">
+      <div class="result_number" id="divResult"></div>
+      <div class="buttonsCalc" id="buttons">
+        <div class="btCalc" id="bt_7" title="7" onclick="updateScreenResult(this)">7</div>
+        <div class="btCalc" id="bt_8" title="8" onclick="updateScreenResult(this)">8</div>
+        <div class="btCalc" id="bt_9" title="9" onclick="updateScreenResult(this)">9</div>
+        <div class="btCalc btOpt" id="bt_division" onclick="updateScreenResult(this)" title="/">/</div>
+        
+        <div class="btCalc" id="bt_4" title="4" onclick="updateScreenResult(this)">4</div>
+        <div class="btCalc" id="bt_5" title="5" onclick="updateScreenResult(this)">5</div>
+        <div class="btCalc" id="bt_6" title="6" onclick="updateScreenResult(this)">6</div>
+        <div class="btCalc btOpt" id="bt_multiple" onclick="updateScreenResult(this)" title="*">x</div>
+
+        <div class="btCalc" id="bt_1" title="1" onclick="updateScreenResult(this)">1</div>
+        <div class="btCalc" id="bt_2" title="2" onclick="updateScreenResult(this)">2</div>
+        <div class="btCalc" id="bt_3" title="3" onclick="updateScreenResult(this)">3</div>
+        <div class="btCalc btOpt" id="bt_plus" onclick="updateScreenResult(this)" title="+">+</div>
+
+        <div class="btCalc" id="bt_0" title="0" onclick="updateScreenResult(this)">0</div>
+        <div class="btCalc btOpt" id="bt_dot" title="." onclick="updateScreenResult(this)">.</div>
+        <div class="btCalc btEqual" id="bt_equals" title="=" onclick="updateScreenResult(this)">=</div>
+        <div class="btCalc btOpt" id="bt_subtraction" title="-" onclick="updateScreenResult(this)">-</div>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
