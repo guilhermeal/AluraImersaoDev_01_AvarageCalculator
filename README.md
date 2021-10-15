@@ -10,8 +10,10 @@
 - CSS
 - Javascript
 
-##
-##
+# Let's Practice : My Calculator 
+#### Using the content learned in the Chater 1 I can make My Calculator
+
+![MyCalculator](https://github.com/guilhermeal/AluraImersaoDev_01_AvarageCalculator/blob/main/assets/printscreen.png)
 ##
 
 #
